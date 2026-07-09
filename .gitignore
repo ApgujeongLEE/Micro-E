@@ -1,0 +1,13 @@
+# Large source and export media are kept out of git by default.
+projects/**/02_voice/*
+projects/**/03_raw_video/*
+projects/**/06_exports/**/*
+
+# Keep project directory placeholders.
+!projects/**/02_voice/.gitkeep
+!projects/**/03_raw_video/.gitkeep
+!projects/**/06_exports/**/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
